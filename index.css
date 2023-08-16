@@ -58,6 +58,18 @@
   font-weight: 500;
   }
   .email{
-    margin-left: 420px;
+    margin-left: 0px;
     margin-top: 500px;
+    display:flex;
+    justify-content:center;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  .email:hover{
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:center;
+    width: auto;
+    height: 300px;
+    transform: rotate(360deg);
   }
